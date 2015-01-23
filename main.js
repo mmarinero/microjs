@@ -16,7 +16,8 @@ require.config({
 
 define(['jquery', 'QUnit'], function(jQuery, QUnit){
 
-
-QUnit.load();
-QUnit.start();
+$(function(){
+    QUnit.load();
+    QUnit.start();
+});
 });
